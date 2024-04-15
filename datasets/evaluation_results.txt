@@ -1,0 +1,71 @@
+Evaluation Results for three CAI thresholds comparison:
+-------------------
+Threshold 0.5:AUC Score for MLP: 0.6058506727218628
+AUC Score for Logistic Regression: 0.5
+AUC Score for Random Forest: 0.5467964819739792
+AUC Score for XGBoost: 0.5323242983587564
+-------------------
+Threshold 0.6:AUC Score for Logistic Regression: 0.5
+AUC Score for Random Forest: 0.529900799695039
+AUC Score for XGBoost: 0.5284297185908265
+AUC Score for MLP: 0.8010246157646179
+-------------------
+Threshold 0.7:AUC Score for Logistic Regression: 0.5224282023062157
+AUC Score for Random Forest: 0.5435823845973285
+AUC Score for XGBoost: 0.5082884718081342
+AUC Score for MLP: 0.9210724115371705
+---------------------------------------------
+Evaluation Results for CAI Regression Models:
+-------------------
+Linear Regression:
+pvalue for statistic test: 3.0088762496296727e-198
+K-fold cross validation result:
+MSE is 0.023658589653555898
+R2 Score is -0.072086980150678
+MAE is 0.1297449549052042
+-------------------
+Random Forest:
+pvalue for statistic test: 1.6048196686748233e-154
+K-fold cross validation result:
+MSE is 0.022068258339094066
+R2 Score is -2.1251748131945192e-05
+MAE is 0.12384736428655815
+-------------------
+XGBoost:
+pvalue for statistic test: 6.114275244061139e-152
+K-fold cross validation result:
+MSE is 0.022068258339094066
+R2 Score is -2.1251748131945192e-05
+MAE is 0.12384736428655815
+-------------------
+MLP:
+pvalue for statistic test: 1.0
+K-fold cross validation result:
+MSE is 0.002267205622047186
+R2 Score is 0.0
+MAE is 0.04750552773475647---------------------------------------------
+Evaluation Results for 22 Features Regression Models after FS:
+-------------------
+Linear Regression:
+Select [0][3] features
+pvalue for statistic test: 9.615985657091268e-19
+K-fold cross validation result:
+MSE is 0.01341028658855862
+R2 Score is 0.3923140025583866
+MAE is 0.09380262633824107
+-------------------
+Random Forest:
+Select [0,3,4,7,9,15,17] features
+pvalue for statistic test: 2.4960822884429054e-55
+K-fold cross validation result:
+MSE is 0.013846602843715767
+R2 Score is 0.3725423685247506
+MAE is 0.09675099214207976
+-------------------
+XGBoost:
+Select [0,3,4,10,16,17] features
+pvalue for statistic test: 1.193281548011272e-16
+K-fold cross validation result:
+MSE is 0.011254114932000485
+R2 Score is 0.4900207379900342
+MAE is 0.08425507884228485
